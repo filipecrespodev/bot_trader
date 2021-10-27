@@ -1,0 +1,36 @@
+{
+    "error": [],
+    "result": {
+        "trades": {
+            "TYRBXM-P5BHC-STLSRV": {
+                "ordertxid": "OFE4WI-UGSPK-LRGTJ7",
+                "postxid": "TKH2SE-M7IF5-CFI7LT",
+                "pair": "ADAUSD",
+                "time": 1631054029.2217,
+                "type": "buy",
+                "ordertype": "market",
+                "price": "2.433504",
+                "cost": "14.000000",
+                "fee": "0.036400",
+                "vol": "5.75302116",
+                "margin": "0.000000",
+                "misc": ""
+            },
+            "TUB566-KSKFY-PWE3RV": {
+                "ordertxid": "OD3NYX-OUIPX-Z7RD6I",
+                "postxid": "TKH2SE-M7IF5-CFI7LT",
+                "pair": "SOLUSD",
+                "time": 1631053939.1578,
+                "type": "buy",
+                "ordertype": "market",
+                "price": "174.58000",
+                "cost": "34.91600",
+                "fee": "0.09078",
+                "vol": "0.20000000",
+                "margin": "0.00000",
+                "misc": ""
+            },
+        },
+        "count": 1
+    }
+}
