@@ -39,6 +39,8 @@ if __name__ == '__main__':
     # "ADAUSD": ["ADA", "USD", 15.00],
     # "TRXUSD": ["TRX", "USD", 10.00]
     # "SOLUSD": ["SOL", "USD", 25.00],
+    
+    
   }
 
   crypto_data = kraken.get_crypto_data('XETHZUSD', since)['result']['XETHZUSD']
