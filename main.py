@@ -1,5 +1,5 @@
 import time
-import kraken
+import exchange.kraken as kraken
 import trander
 
 def get_last_buy(pair):

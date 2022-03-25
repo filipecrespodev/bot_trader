@@ -2,6 +2,18 @@ import krakenex
 import calendar
 import datetime
 
+
+class KrakenAPI:
+  def __init__(self, key, secret):
+    self.api = krakenex.API(key, secret)
+
+  def query_public(self, method, data = {}):
+    return self.api.query_public(method, data)
+
+  def query_private(self, method, data = {}):
+    return self.api.query_private(method, data)
+
+
 def get_crypto_data(pair, since):
   return api.query_public("OHLC", data = {'pair': pair, 'since': since, 'interval': 15})
 
